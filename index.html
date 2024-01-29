@@ -1,0 +1,39 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Pastebin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Your Pastebin</h1>
+    </header>
+
+    <main>
+        <section id="create-paste">
+            <h2>Create a Paste</h2>
+            <textarea id="paste-content" placeholder="Enter your code here..."></textarea>
+            <button id="create-button">Create Paste</button>
+        </section>
+
+        <section id="recent-pastes">
+            <h2>Recent Pastes</h2>
+            <ul id="paste-list">
+                <!-- List of recent pastes will go here -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Pastebin</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
